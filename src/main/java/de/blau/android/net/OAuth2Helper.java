@@ -78,7 +78,7 @@ public class OAuth2Helper extends OAuthHelper {
     private static final String ERROR_DESCRIPTION_PARAM     = "error_description";
     private static final String ERROR_PARAM                 = "error";
 
-    private static final List<String> SCOPES = Arrays.asList("read_prefs", "write_prefs", "write_api", "read_gpx", "write_gpx", "write_notes");
+    private static final List<String> SCOPES = Arrays.asList("read_prefs", "write_prefs", "write_api", "read_gpx", "write_notes");
 
     private static final char[] PKCE_CHARS = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
             'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y',
