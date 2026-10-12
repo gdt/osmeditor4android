@@ -16,7 +16,7 @@ public final class OpenStreetMap {
     public static final String AUTHORIZE_PATH    = "authorize";
     public static final String ACCESS_TOKEN_PATH = "token";
     
-    private static final List<String> OSM_SCOPES = Arrays.asList("read_prefs", "write_prefs", "write_api", "read_gpx", "write_gpx", "write_notes");
+    private static final List<String> OSM_SCOPES = Arrays.asList("read_prefs", "write_prefs", "write_api", "read_gpx", "write_notes");
 
     /**
      * Private constructor
